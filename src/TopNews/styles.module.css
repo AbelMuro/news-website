@@ -7,6 +7,7 @@
 }
 
 .news{
+    width: 33%;
     display: grid;
     grid-template-columns: 99.65px 226px;
     column-gap: 24.35px;
@@ -52,8 +53,23 @@
     .container{
         justify-content: center;
         width: 90%;
+        gap: 20px;
     }
     .news{
-        grid-template-columns: 99.65px 1fr;
+        grid-template-columns: 80.65px 1fr;
+        column-gap: 15px;
+        row-gap: 6px;
+    }
+
+    .news_number{
+        font-size: 1.5625rem;
+    }
+
+    .news_title{
+        font-size: 1rem;
+    }
+
+    .news_desc{
+        font-size: 0.8125rem;
     }
 }

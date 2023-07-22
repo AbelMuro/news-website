@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './styles.module.css';
 import images from './images';
 
+
+//this is where i left off, i will need to change the flexbox from a row into a column
 function TopNews() {
     return(
         <section className={styles.container}>
